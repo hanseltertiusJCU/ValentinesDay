@@ -3,24 +3,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FF80AB"
     tools:context=".MainActivity">
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/heart"/>
+        android:src="@drawable/heart" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Happy Valentine's Day,
+__________________________"
+        android:fontFamily="@font/lobster"
+        android:padding="8dp"
+        android:textColor="#FFD600"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"/>
+        android:layout_centerVertical="true"
+        android:gravity="center"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="From,
+__________________"
+        android:padding="16dp"
+        android:fontFamily="@font/lobster"
+        android:textColor="#5E35B1"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
         android:layout_alignParentRight="true"
         android:layout_alignParentBottom="true"/>
 
